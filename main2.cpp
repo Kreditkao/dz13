@@ -145,7 +145,7 @@ namespace ConsoleApp2
                         int rhombusSize = int.Parse(Console.ReadLine());
                         collection.AddFigure(new DrawableRhombus { X = x, Y = y, Symbol = symbol, Color = color, Size = rhombusSize });
                         break;
-                        // Add handling for other figures
+                      
                 }
 
                 Console.Clear();
